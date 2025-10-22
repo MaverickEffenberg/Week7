@@ -1,3 +1,4 @@
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -9,6 +10,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier
+    )
+
+    Text (
+        text = "Ini terence hacking kamu",
+        style = MaterialTheme.typography.headlineLarge
     )
 }
 
