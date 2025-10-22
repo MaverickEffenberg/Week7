@@ -7,7 +7,7 @@ import com.maverick.androidprojectweek7.ui.theme.AndroidProjectWeek7Theme
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello test $name!",
         modifier = modifier
     )
 }
